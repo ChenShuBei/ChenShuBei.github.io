@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Hilton Hotel</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js"></script>
+
+
+    <style>
+        /* Global Styles */
+        
+        body {
+        
+          font-family: Arial, sans-serif;
+        
+          margin: 0;
+        
+          padding: 0;
+        
+        }
+        
+        header {
+        
+          background-color: #007bff;
+        
+          color: #fff;
+        
+          padding: 20px;
+        
+          text-align: center;
+        
+        }
+        
+        nav ul {
+        
+          list-style: none;
+        
+          padding: 0;
+        
+          margin: 0;
+        
+          display: flex;
+        
+        }
+        
+        nav ul li {
+        
+          margin-right: 20px;
+        
+        }
+        
+        nav ul li a {
+        
+          color: #fff;
+        
+          text-decoration: none;
+        
+        }
+        
+        section {
+        
+          padding: 50px;
+        
+        }
+        
+        h2 {
+        
+          color: #333;
+        
+          font-size: 36px;
+        
+          margin-bottom: 30px;
+        
+        }
+        
+        h3 {
+        
+          color: #333;
+        
+          font-size: 24px;
+        
+          margin-bottom: 20px;
+        
+        }
+        
+        p {
+        
+          color: #666;
+        
+          line-height: 1.5;
+        
+        }
+        
+        a {
+        
+          display: inline-block;
+        
+          background-color: #007bff;
+        
+          color: #fff;
+        
+          text-decoration: none;
+        
+          font-size: 18px;
+        
+          padding: 10px 30px;
+        
+          border-radius: 5px;
+        
+          margin-top: 20px;
+        
+          transition: background-color 0.3s ease, color 0.3s ease;
+        
+        }
+        
+        a:hover {
+        
+          background-color: #0056b3;
+        
+          color: #fff;
+        
+        }
+        
+        footer {
+        
+          background-color: #333;
+        
+          color: #fff;
+        
+          padding: 50px;
+        
+          text-align: center;
+        
+        }
+        
+        /* Specific Styles */
+        
+        .banner {
+        
+          height: 500px;
+        
+          background-image: url('banner.jpg');
+        
+          background-size: cover;
+        
+          background-position: center;
+        
+          display: flex;
+        
+          flex-direction: column;
+        
+          align-items: center;
+        
+          justify-content: center;
+        
+          text-align: center;
+        
+        }
+        
+        .banner h1 {
+        
+          color: #fff;
+        
+          font-size: 48px;
+        
+          margin-bottom: 20px;
+        
+        }
+        
+        .banner p {
+        
+          color: #fff;
+        
+          font-size: 24px;
+        
+          margin-bottom: 20px;
+        
+        }
+        
+        .facility {
+        
+          display: flex;
+        
+          align-items: center;
+        
+          margin-bottom: 50px;
+        
+        }
+        
+        .facility img {
+        
+          width: 300px;
+        
+          height: 200px;
+        
+          object-fit: cover;
+        
+          margin-right: 30px;
+        
+        }
+        
+        .facility-info h3 {
+        
+          font-size: 24px;
+        
+          margin-bottom: 10px;
+        
+        }
+        
+        .service {
+        
+          display: flex;
+        
+          align-items: center;
+        
+          margin-bottom: 50px;
+        
+        }
+        
+        .service img {
+        
+          width: 300px;
+        
+          height: 200px;
+        
+          object-fit: cover;
+        
+          margin-right: 30px;
+        
+        }
+        
+        .service-info h3 {
+        
+          font-size: 24px;
+        
+          margin-bottom: 10px;
+        
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#facilities">Facilities</a></li>
+
+                <li><a href="#services">Services</a></li>
+
+                <li><a href="#about">About Us</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <section id="home">
+
+        <div class="banner">
+
+            <h1>Welcome to Hilton Hotel</h1>
+
+            <p>Your luxurious home away from home</p>
+
+            <a href="#facilities">Explore More</a>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="facilities">
+
+        <h2>Our Facilities</h2>
+
+        <div class="facility">
+
+            <img src="pool.jpg" alt="Swimming Pool">
+
+            <div class="facility-info">
+
+                <h3>Swimming Pool</h3>
+
+                <p>Take a refreshing dip in our sparkling swimming pool. Whether you want to relax by the poolside or swim laps, our pool is the perfect place to unwind and recharge.</p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="facility">
+
+            <img src="gym.jpg" alt="Gym">
+
+            <div class="facility-info">
+
+                <h3>Fitness Center</h3>
+
+                <p>Stay fit and active at our state-of-the-art fitness center. Equipped with the latest exercise machines and free weights, our gym is ideal for maintaining your workout routine while traveling.</p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="facility">
+
+            <img src="restaurant.jpg" alt="Restaurant">
+
+            <div class="facility-info">
+
+                <h3>Restaurant</h3>
+
+                <p>Indulge in a culinary journey at our exquisite restaurant. From gourmet international cuisine to local specialties, our talented chefs are dedicated to creating unforgettable dining experiences.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="services">
+
+        <h2>Our Services</h2>
+
+        <div class="service">
+
+            <img src="spa.jpg" alt="Spa">
+
+            <div class="service-info">
+
+                <h3>Spa & Wellness Center</h3>
+
+                <p>Pamper yourself with a rejuvenating spa treatment at our world-class spa. From relaxing massages to revitalizing facials, our skilled therapists will help you achieve total relaxation and wellness.</p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="service">
+
+            <img src="business.jpg" alt="Business Center">
+
+            <div class="service-info">
+
+                <h3>Business Center</h3>
+
+                <p>Stay connected and productive at our fully-equipped business center. With high-speed internet access, meeting rooms, and professional services, we ensure that your business needs are met.</p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="service">
+
+            <img src="concierge.jpg" alt="Concierge">
+
+            <div class="service-info">
+
+                <h3>Concierge</h3>
+
+                <p>Our dedicated concierge team is available 24/7 to assist you with all your travel needs. From arranging transportation to recommending local attractions, we are here to make your stay memorable.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="about">
+
+        <h2>About Hilton Hotel</h2>
+
+        <p>Hilton Hotel is a world-renowned luxury hotel brand with a legacy of excellence and hospitality. With our commitment to providing exceptional service, luxurious accommodations, and top-notch amenities, we strive to create unforgettable experiences for our guests.</p>
+
+        <p>Whether you are traveling for business or leisure, Hilton Hotel offers a range of facilities and services to cater to your every need. From spacious rooms and fine dining to relaxing spas and state-of-the-art fitness centers, we ensure that your stay is comfortable and enjoyable.</p>
+
+        <p>Experience the finest in hospitality at Hilton Hotel and let us exceed your expectations.</p>
+
+    </section>
+
+
+
+    <footer>
+
+        <p>&copy; 2024 Hilton Hotel. All Rights Reserved.（This website was created by Sophie Chen）</p>
+
+    </footer>
+
+
+    <script>
+        // Smooth scrolling
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        
+          anchor.addEventListener('click', function (e) {
+        
+            e.preventDefault();
+        
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+        
+              behavior: 'smooth'
+        
+            });
+        
+          });
+        
+        });
+        
+        
+    </script>
+</body>
+
+</html>
